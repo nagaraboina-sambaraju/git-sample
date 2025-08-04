@@ -1,6 +1,5 @@
-publishHTML([allowMissing: pipeline {
+pipeline {
     agent any
-
     stages {
         stage('Hello') {
             steps {
